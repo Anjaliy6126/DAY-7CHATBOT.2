@@ -38,7 +38,7 @@ if not api_key:
 def build_rag():
 
     loader = UnstructuredHTMLLoader(
-        file_path="washing_machine_manual.html"
+        file_path="How to use the various modes of the washing machine _ Samsung LEVANT.html"
     )
 
     docs = loader.load()
